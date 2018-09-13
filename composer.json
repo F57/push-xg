@@ -1,0 +1,21 @@
+{
+    "name": "push-xg/push-xg",
+    "description": "腾讯信鸽推送PHP扩展",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "perpel",
+            "email": "572821520@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kordar\\push\\xg\\": ""
+        }
+    }
+}
